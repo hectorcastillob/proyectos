@@ -22,8 +22,8 @@ server:
     configuration:
       ignoreCertError: false # If set to true, certificate errors will be ignored. E.g. self-signed certificates will be accepted
       backend:
-      - path: /sap/opu/odata
-        url: http://localhost
+      - path: /V2
+        url: https://northwind.dest
   - name: fiori-tools-appreload
     afterMiddleware: compression
     configuration:
